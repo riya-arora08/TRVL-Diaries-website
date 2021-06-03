@@ -11,7 +11,7 @@ function Footer() {
           Join the Adventure newsletter to receive our best vacation deals
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          You can cancel subscription at any time.
         </p>
         <div className='input-areas'>
           <form>
@@ -21,7 +21,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Send</Button>
           </form>
         </div>
       </section>
@@ -64,11 +64,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              TRVL Diaries
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>TRVL Diaries © 2020</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
